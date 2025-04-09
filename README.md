@@ -3,7 +3,7 @@ En este repositorio se encuentran mis trabajos en clase, retos y demás práctic
 
 |Reto| Descripción |
 |----|-------------|
-|01|💪 [Desarrollar un programa en Java que registre los datos de un paciente, aplicando los fundamentos de clases, objetos, atributos, métodos y la entrada de datos por consola.](Reto1)|
+|[01](Reto1)|💪 [Desarrollar un programa en Java que registre los datos de un paciente, aplicando los fundamentos de clases, objetos, atributos, métodos y la entrada de datos por consola.](Reto1)|
 |02|💪|
 |03|💪|
 |04|💪|

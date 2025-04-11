@@ -7,5 +7,9 @@ public class Main {
         // Mostrar datos en la consola.
         entrada1.MostrarInformacion();
         entrada2.MostrarInformacion();
+
+        // Reto extra
+        Entrada_Record entrada3 = new Entrada_Record("Concierto sinfónico", 750.0);
+        System.out.println(entrada3);
     }
 }

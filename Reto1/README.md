@@ -5,6 +5,6 @@
   <img src="https://img.shields.io/badge/Estado-Finalizado-brightgreen"/>
   <img src="https://img.shields.io/badge/Java-8%2B-red"/>
   <img src="https://img.shields.io/badge/OOP-Fundamentals-blue"/>
-  <img src="https://img.shields.io/github/last-commit/ElisaaTovar/Java-Tecnolochicas/tree/main/Reto1?style=flat-square"/>
+  <img src="https://img.shields.io/github/last-commit/ElisaaTovar/Java-Tecnolochicas/main/Reto1?style=flat-square"/>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=ElisaaTovar.Java-Tecnolochicas.tree.main.Reto1" />
 </p>

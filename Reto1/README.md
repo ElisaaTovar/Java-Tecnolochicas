@@ -1,4 +1,4 @@
-<h1 align="center">🏥 Registro Básico de Pacientes en Java</h1>
+<h1 align="center">🏥 Registro de Pacientes en Java</h1>
 <p align="center">Proyecto de práctica con Programación Orientada a Objetos</p>
 
 <p align="center">

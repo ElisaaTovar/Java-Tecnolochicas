@@ -11,3 +11,5 @@ En este repositorio se encuentran mis trabajos en clase, retos y demás práctic
 ||[02](Sesión%203/S3_Reto%202)|💪 Diseñar una clase **Factura** aplicando los principios de encapsulación con modificadores de acceso y utilizando la clase Optional para manejar valores que pueden ser nulos, como el RFC del cliente.|
 |04|[01](Sesión%204/S4_Reto1)|💪 Modelar **facturas emitidas para un sistema contable**, reforzando el uso de constructores, equals(), hashCode() y toString().|
 ||[02](Sesión%204/S4_Reto2)|💪 Modelar una **declaración de impuestos con record** y validarla contra una cuenta fiscal usando encapsulación y comparación segura con Objects.equals().|
+|05|[01](Sesión%205/S5_Reto1)|💪 Construir un sistema que modele diferentes tipos de **unidades de emergencia**, aplicando los principios de **herencia** y **composición** en Java. Reforzarás el uso de `extends`, `super`, y el diseño modular usando clases auxiliares.|
+||[02](Sesión%205/S5_Reto2)|💪 Diseñar un **sistema de pagos** en el que distintos métodos de pago (efectivo, tarjeta, transferencia) compartan una estructura común pero tengan comportamientos específicos.|

@@ -20,12 +20,18 @@ public class AnalizadorDeLogs {
                 
                 WARNING""";
 
+        try {
+            // Verifica si el archivo existe, si no lo crea y le escribe contenido
+            if (!Files.exists(rutaErrores)) {
+                Files.createDirectories(rutaErrores.getParent()); // Crea la carpeta src si no existe
+                Files.write(rutaErrores, contenido.getBytes());
+            }} catch (IOException ex) {
+                System.out.println("¡No se pudo escribir el archivo de fallos!\n" + ex);
+            }
+
         // 2. Usa try-with-resources para abrir el archivo errores.log con BufferedReader.
         try(BufferedReader lector = Files.newBufferedReader(rutaErrores)){
-            if (!Files.exists(rutaErrores)){
-                Files.createFile(rutaErrores);
-            }
-            Files.write(rutaErrores, contenido.getBytes());
+
         // 3. Lee el archivo línea por línea y cuenta cuántas veces aparece: La palabra "ERROR", la palabra "WARNING"
             String linea;
             int contador = 0;
@@ -61,7 +67,7 @@ public class AnalizadorDeLogs {
             try(BufferedWriter error = Files.newBufferedWriter(registroFallos)){
                 error.write(e.getMessage());
             } catch (IOException exception){
-                System.out.println("¡No se pudo escribir el archivo de fallos!\n" + exception);
+                System.out.println("¡No se pudo procesar el archivo!\n" + exception);
             }
         }
     }
